@@ -4,7 +4,6 @@ server:
 spring:
   application:
     name: api-catalog
-
 eureka:
   instance:
     hostname: localhost
