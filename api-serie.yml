@@ -11,6 +11,7 @@ spring:
     mongodb:
       database: test
       port: 27017
+
 eureka:
   instance:
     hostname: localhost
