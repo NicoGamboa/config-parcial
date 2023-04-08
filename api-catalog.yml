@@ -4,6 +4,13 @@ server:
 spring:
   application:
     name: api-catalog
+  mongodb:
+    embedded:
+      version: 3.6.0
+  data:
+    mongodb:
+      database: test
+      port: 27017
 
   zipkin:
     baseUrl: http://localhost:9411/
